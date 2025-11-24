@@ -1,6 +1,7 @@
 # crypto-news-parser
-Парсер парсит 2 сайта: https://forklog.com/
-                      https://cryptonews.net/ru/
+Парсер парсит 2 сайта:
+https://forklog.com/
+https://cryptonews.net/ru/
 
 
 # что делает
@@ -17,8 +18,9 @@
     }
 ]
 ```
-# важно
+# Важно
 Структура сайтов может изменяться, поэтому парсер может перестать работать.
+
 Все данные сохраняются локально в JSON.
 
 # Как использовать
@@ -35,9 +37,9 @@ cd ~/ваш/путь/до/папки/crypto-news-parser
 ```
 Установить зависимости:
 
-```pip
+```bash
 pip install -r requirements.txt
-``
+```
 Запустить скрипт:
 
 ```bash
