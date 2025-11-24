@@ -25,18 +25,22 @@
 
 Склонировать репозиторий:
 
+```bash
 git clone https://github.com/BlackRaisons/crypto-news-parser.git
-
+```
 перейти в папку проекта:
 
+```bash
 cd ~/ваш/путь/до/папки/crypto-news-parser
+```
+Установить зависимости:
 
-Установить зависимости (если есть requirements.txt):
-
+```pip
 pip install -r requirements.txt
-
+``
 Запустить скрипт:
 
+```bash
 python main.py
-
+```
 
